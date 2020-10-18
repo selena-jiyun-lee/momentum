@@ -13,7 +13,7 @@ input:focus {
 }
 
 .form,
-.greeting {
+.greetings {
 	display: none;
 }
 
@@ -28,6 +28,11 @@ input:focus {
 	width: 100vw;
 	z-index: -1;
 	opacity: 0.9;
+}
+
+.clock,
+.greetings {
+	text-shadow: 1px 1px 3px grey;
 }
 
 .clock h1 {
