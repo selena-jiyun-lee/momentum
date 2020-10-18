@@ -1,0 +1,99 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+input:focus {
+	outline: none;
+}
+
+.form,
+.greeting {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.bgImage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	z-index: -1;
+	opacity: 0.9;
+}
+
+.clock h1 {
+	font-size: 120px;
+	color: white;
+	font-weight: 700;
+	margin-top: 25vh;
+	margin-bottom: 0;
+}
+
+.greetings {
+	font-size: 42px;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.form input,
+.toDoForm input {
+	padding: 5px 10px;
+	font-size: 18px;
+	border: none;
+	margin-bottom: 15px;
+}
+
+.form input {
+	margin: 10px 0;
+}
+
+.toDoList-container {
+	width: 500px;
+	height: 200px;
+	overflow: scroll;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	padding: 15px;
+}
+.toDoList {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	columns: 2;
+	column-gap: 20px;
+}
+
+.toDoList li {
+	margin: 10px 0;
+	font-size: 18px;
+}
+
+.toDoList span {
+	color: darkslateblue;
+}
+
+.toDoList li button {
+	border: none;
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.weather {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 18px;
+	color: white;
+	margin: 20px;
+}
