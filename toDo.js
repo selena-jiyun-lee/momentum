@@ -32,7 +32,7 @@ function handleSubmit(event){
 
 function loadToDoList() {
     const loadedToDoList = localStorage.getItem(TODOLIST_LS);
-    if(toDoList !== null) {
+    if(loadedToDoList !== null) {
         const parsedTodoList = JSON.parse(loadedToDoList);
         parsedTodoList.forEach(function(toDo){
             paintList(toDo.text);
