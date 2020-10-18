@@ -45,11 +45,16 @@ input:focus {
 	margin-bottom: 15px;
 }
 
+.form input,
 .toDoForm input {
 	padding: 5px 10px;
 	font-size: 18px;
 	border: none;
 	margin-bottom: 15px;
+}
+
+.form input {
+	margin: 10px 0;
 }
 
 .toDoList-container {
@@ -82,4 +87,13 @@ input:focus {
 	background-color: rgba(255, 255, 255, 0);
 	border-radius: 5px;
 	margin-right: 10px;
+}
+
+.weather {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 18px;
+	color: white;
+	margin: 20px;
 }
