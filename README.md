@@ -13,5 +13,5 @@
 - Save user name at cookies
 - Save to do item at cookies
 - Delete to do item at cookies
-- Change the background imgage when it loads
+- Change the background imgage when the site loads
 - Show weather of user's location
