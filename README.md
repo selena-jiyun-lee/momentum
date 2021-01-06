@@ -1,5 +1,5 @@
 # Momentum
-- This is clone of Momentum for learning VanillaJS
+- This is clone of Momentum for learning VanillaJS.
 - Followed [Nomad Coders](https://nomadcoders.co) leture.
 - [Momentum](https://selena-jiyun-lee.github.io/momentum/)
 
@@ -9,7 +9,7 @@
 - VanillaJS
 
 # Features
-- Current Time
+- Show current time
 - Save user name at cookies
 - Save to do item at cookies
 - Delete to do item at cookies
