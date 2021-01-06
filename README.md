@@ -1,6 +1,6 @@
 # Momentum
 - This is clone of Momentum for learning VanillaJS
-- Followed [Nomad Coders](https://nomadcoders.co
+- Followed [Nomad Coders](https://nomadcoders.co) leture.
 - [Momentum](https://selena-jiyun-lee.github.io/momentum/)
 
 # Used Skills
